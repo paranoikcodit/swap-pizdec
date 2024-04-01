@@ -1,0 +1,9 @@
+accounts_path = "accounts.txt"
+rpc_url = "https://api.mainnet-beta.solana.com"
+fee_payer = "" # ЕСЛИ ВЫ ХОТИТЕ БЛЯТЬ НАХУЙ ГАЗЮЛЬКУ С ОДНОГО АККАУНТА ПЛАТИТЬ!!!!!!!!!
+
+[input_mints]
+So11111111111111111111111111111111111111112 = { amount_range = [0.002, 0.004] }
+
+[output_mints]
+JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN = { sell_percentages = [25, 25, 50] }
